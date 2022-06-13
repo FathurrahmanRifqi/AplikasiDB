@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="03bd9b4e96674ae0bcac9157c5a0628d" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="DBTAModel.tbl_dosen" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBTAModel.tbl_jadwal" Width="1.5" PointX="5.25" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBTAModel.tbl_mhs" Width="1.5" PointX="5.25" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBTAModel.tbl_TA" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="DBTAModel.FK_tbl_TA_tbl_dosen_pembimbing" ManuallyRouted="false" />
+        <AssociationConnector Association="DBTAModel.FK_tbl_TA_tbl_dosen_penelaah1" ManuallyRouted="false" />
+        <AssociationConnector Association="DBTAModel.FK_tbl_TA_tbl_dosen_penelaah2" ManuallyRouted="false" />
+        <AssociationConnector Association="DBTAModel.FK_tbl_jadwal_tbl_TA" ManuallyRouted="false" />
+        <AssociationConnector Association="DBTAModel.FK_tbl_TA_tbl_mhs" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
